@@ -1,0 +1,219 @@
+{
+  "boardName": "SistemaGestionInventarios",
+  "createdDate": "2026-02-15T05:45:16.392Z",
+  "tasks": {
+    "config-setup": {
+      "id": "config-setup",
+      "title": "🔧 Configuración Inicial del Proyecto",
+      "description": "Configurar entorno Python 3.10+, estructura de carpetas, dependencias y Git",
+      "priority": 2,
+      "tags": ["setup", "sprint-0"],
+      "createdDate": "2026-02-15T06:00:00.000Z",
+      "files": ["config-setup_1.md"]
+    },
+    "hu001": {
+      "id": "hu001",
+      "title": "🔴 HU-001: Modelo Categoria con Dataclasses",
+      "description": "Crear modelo Categoria usando @dataclass con validaciones",
+      "priority": 2,
+      "tags": ["sprint-1", "5sp", "domain"],
+      "createdDate": "2026-02-15T06:01:00.000Z",
+      "files": ["hu001_1.md"],
+      "modifiedDate": "2026-02-15T05:49:10.609Z",
+      "dueDate": "2026-02-21T04:59:59.999Z"
+    },
+    "hu002": {
+      "id": "hu002",
+      "title": "🔴 HU-002: Modelo Proveedor con Encapsulación",
+      "description": "Crear clase Proveedor con atributos privados y validaciones",
+      "priority": 2,
+      "tags": ["sprint-1", "5sp", "domain"],
+      "createdDate": "2026-02-15T06:02:00.000Z",
+      "files": ["hu002_1.md"]
+    },
+    "hu003": {
+      "id": "hu003",
+      "title": "🔴 HU-003: Modelo ProductoBase con Herencia",
+      "description": "Crear clase base abstracta ProductoBase y productos concretos",
+      "priority": 2,
+      "tags": ["sprint-1", "8sp", "domain"],
+      "createdDate": "2026-02-15T06:03:00.000Z",
+      "files": ["hu003_1.md"]
+    },
+    "hu004": {
+      "id": "hu004",
+      "title": "🟠 HU-004: Refactorizar con Properties y Validación",
+      "description": "Aplicar @property decorators y validaciones robustas",
+      "priority": 1,
+      "tags": ["sprint-2", "5sp", "domain"],
+      "createdDate": "2026-02-15T06:04:00.000Z",
+      "files": ["hu004_1.md"]
+    },
+    "hu005": {
+      "id": "hu005",
+      "title": "🟠 HU-005: Jerarquía de Productos con ABC",
+      "description": "Convertir ProductoBase a ABC con métodos abstractos",
+      "priority": 1,
+      "tags": ["sprint-2", "8sp", "domain"],
+      "createdDate": "2026-02-15T06:05:00.000Z",
+      "files": ["hu005_1.md"]
+    },
+    "hu006": {
+      "id": "hu006",
+      "title": "🟠 HU-006: Modelo Venta con Composición",
+      "description": "Crear clases Venta e ItemVenta con relación de composición",
+      "priority": 1,
+      "tags": ["sprint-2", "8sp", "domain"],
+      "createdDate": "2026-02-15T06:06:00.000Z",
+      "files": ["hu006_1.md"]
+    },
+    "hu007": {
+      "id": "hu007",
+      "title": "🟠 HU-007: Interfaces con ABC para Repositorios",
+      "description": "Crear interfaces abstractas para repositorios usando ABC",
+      "priority": 1,
+      "tags": ["sprint-3", "5sp", "domain"],
+      "createdDate": "2026-02-15T06:07:00.000Z",
+      "files": ["hu007_1.md"]
+    },
+    "hu008": {
+      "id": "hu008",
+      "title": "🔴 HU-008: Implementar Repository Pattern con JSON",
+      "description": "Implementar repositorios concretos con persistencia JSON",
+      "priority": 2,
+      "tags": ["sprint-3", "8sp", "infrastructure"],
+      "createdDate": "2026-02-15T06:08:00.000Z",
+      "files": ["hu008_1.md"]
+    },
+    "hu009": {
+      "id": "hu009",
+      "title": "🟠 HU-009: Implementar Patrón Factory",
+      "description": "Crear Factory para centralizar creación de productos",
+      "priority": 1,
+      "tags": ["sprint-4", "5sp", "application"],
+      "createdDate": "2026-02-15T06:09:00.000Z",
+      "files": ["hu009_1.md"]
+    },
+    "hu010": {
+      "id": "hu010",
+      "title": "🟠 HU-010: Implementar Patrón Strategy",
+      "description": "Crear estrategias de descuento usando Strategy pattern",
+      "priority": 1,
+      "tags": ["sprint-4", "5sp", "application"],
+      "createdDate": "2026-02-15T06:10:00.000Z",
+      "files": ["hu010_1.md"]
+    },
+    "hu011": {
+      "id": "hu011",
+      "title": "🟡 HU-011: Implementar Patrón Observer",
+      "description": "Crear sistema de alertas de stock usando Observer pattern",
+      "priority": 0,
+      "tags": ["sprint-4", "5sp", "infrastructure"],
+      "createdDate": "2026-02-15T06:11:00.000Z",
+      "files": ["hu011_1.md"]
+    },
+    "hu012": {
+      "id": "hu012",
+      "title": "🔴 HU-012: Desarrollar ProductoService con SOLID",
+      "description": "Crear servicio de productos aplicando principios SOLID",
+      "priority": 2,
+      "tags": ["sprint-5", "8sp", "application"],
+      "createdDate": "2026-02-15T06:12:00.000Z",
+      "files": ["hu012_1.md"]
+    },
+    "hu013": {
+      "id": "hu013",
+      "title": "🔴 HU-013: Desarrollar VentaService",
+      "description": "Crear servicio para procesar ventas con reducción de stock",
+      "priority": 2,
+      "tags": ["sprint-5", "8sp", "application"],
+      "createdDate": "2026-02-15T06:13:00.000Z",
+      "files": ["hu013_1.md"]
+    },
+    "hu014": {
+      "id": "hu014",
+      "title": "🟠 HU-014: Construir Menú Principal CLI",
+      "description": "Crear interfaz de menú principal para la aplicación",
+      "priority": 1,
+      "tags": ["sprint-6", "5sp", "presentation"],
+      "createdDate": "2026-02-15T06:14:00.000Z",
+      "files": ["hu014_1.md"]
+    },
+    "hu015": {
+      "id": "hu015",
+      "title": "🟠 HU-015: Implementar Menú de Productos (CRUD)",
+      "description": "Crear menú completo para gestión de productos",
+      "priority": 1,
+      "tags": ["sprint-6", "8sp", "presentation"],
+      "createdDate": "2026-02-15T06:15:00.000Z",
+      "files": ["hu015_1.md"]
+    },
+    "hu016": {
+      "id": "hu016",
+      "title": "🟠 HU-016: Escribir Tests Unitarios Completos",
+      "description": "Crear tests con cobertura mínima del 70%",
+      "priority": 1,
+      "tags": ["sprint-7", "8sp", "testing"],
+      "createdDate": "2026-02-15T06:16:00.000Z",
+      "files": ["hu016_1.md"]
+    },
+    "hu017": {
+      "id": "hu017",
+      "title": "🟡 HU-017: Completar Documentación del Proyecto",
+      "description": "Documentar arquitectura, patrones y código con docstrings",
+      "priority": 0,
+      "tags": ["sprint-8", "5sp", "documentation"],
+      "createdDate": "2026-02-15T06:17:00.000Z",
+      "files": ["hu017_1.md"]
+    }
+  },
+  "columns": {
+    "backlog": {
+      "id": "backlog",
+      "title": "Backlog",
+      "tasksIds": [
+        "hu001",
+        "hu002",
+        "hu003",
+        "hu004",
+        "hu005",
+        "hu006",
+        "hu007",
+        "hu008",
+        "hu009",
+        "hu010",
+        "hu011",
+        "hu012",
+        "hu013",
+        "hu014",
+        "hu015",
+        "hu016",
+        "hu017"
+      ],
+      "isDefault": true,
+      "createdDate": "2026-02-15T05:45:16.394Z"
+    },
+    "inProgress": {
+      "id": "inProgress",
+      "title": "In Progress",
+      "tasksIds": [],
+      "isDefault": true,
+      "createdDate": "2026-02-15T05:45:16.395Z"
+    },
+    "done": {
+      "id": "done",
+      "title": "Done",
+      "tasksIds": [],
+      "isDefault": true,
+      "createdDate": "2026-02-15T05:45:16.395Z"
+    },
+    "closed": {
+      "id": "closed",
+      "title": "Closed",
+      "tasksIds": ["config-setup"],
+      "isDefault": true,
+      "createdDate": "2026-02-15T05:45:16.395Z"
+    }
+  },
+  "columnsOrder": ["backlog", "inProgress", "done", "closed"]
+}
