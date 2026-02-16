@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+      "projectName": "inventario",
+      "cwd": "${workspaceFolder}/inventario",
+      "vmArgs": ""
+    },
+    {
+      "type": "java",
+      "name": "Debug Main App",
+      "request": "launch",
+      "mainClass": "ec.edu.istpet.inventario.Main",
+      "projectName": "inventario",
+      "cwd": "${workspaceFolder}/inventario",
+      "console": "integratedTerminal",
+      "vmArgs": ""
+    }
+  ]
+}

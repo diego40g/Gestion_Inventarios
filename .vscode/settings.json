@@ -1,0 +1,25 @@
+{
+  // Configuración específica para este proyecto
+  "vsagile.defaultBoardPath": "/home/dipaz/Teacher/Proyectos/POO/Gestion_Inventarios/inventario/docs",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-25",
+      "path": "/nix/store/vlk9ah96wjppmc82qnd3wjlca498ml81-openjdk-25.0.2+10/lib/openjdk",
+      "default": true
+    }
+  ],
+  "java.jdt.ls.java.home": "/nix/store/vlk9ah96wjppmc82qnd3wjlca498ml81-openjdk-25.0.2+10/lib/openjdk",
+  "java.import.maven.enabled": true,
+  "java.configuration.detectJdksAtStart": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "maven.terminal.useJavaHome": true,
+  "maven.executable.path": "mvn",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.project.sourcePaths": [
+    "inventario/src/main/java"
+  ],
+  "java.project.outputPath": "inventario/target/classes",
+  "java.debug.settings.enableRunDebugCodeLens": true,
+  "java.debug.settings.forceBuildBeforeLaunch": true,
+  "java.autobuild.enabled": true
+}

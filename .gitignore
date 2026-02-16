@@ -1,0 +1,51 @@
+# Archivos de Nix
+.direnv/
+flake.lock
+result
+result-*
+
+# Archivos de Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Archivos de Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# Archivos de IDE - Mantener solo configuraciones locales del proyecto
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+
+# VS Code - Mantener launch.json y settings.json locales, pero ignorar lo demás
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
